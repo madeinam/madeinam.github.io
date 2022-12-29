@@ -1,0 +1,96 @@
+.container-fluid {
+  height: 33em;
+  width: 100%;
+
+  padding: 3% 15%;
+}
+
+html,
+body {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+#title {
+  background-color: #ffe84e;
+}
+/* NAV BAR */
+
+.navbar-brand {
+  font-weight: bolder;
+}
+.nav-link {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.taberu {
+  font-size: 32px;
+}
+.pic1 {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  left: 800px;
+  bottom: 150px;
+}
+.img1 {
+  width: 60%;
+}
+.row h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 44px;
+  padding-top: 5%;
+}
+.title-image {
+  position: relative;
+  bottom: -50px;
+}
+
+@media (max-width: 640px) {
+  .title-image {
+    width: 200px;
+    height: 200px;
+    position: static;
+  }
+  #title {
+    text-align: center;
+  }
+
+  .row h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .title-image {
+    width: 200px;
+    height: 200px;
+    position: static;
+  }
+  #title {
+    text-align: center;
+  }
+
+  .row h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1000px) {
+  .title-image {
+    width: 200px;
+    height: 200px;
+    position: static;
+  }
+
+  .row h1 {
+    font-size: 34px;
+  }
+}
+@media (max-width: 1100px) {
+  .row h1 {
+    font-size: 30px;
+  }
+}
