@@ -1,1 +1,130 @@
+.container-fluid {
+  height: 33em;
+  width: 100%;
 
+  padding: 3% 15%;
+}
+
+html,
+body {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+#title {
+  background-color: #ffe84e;
+}
+/* NAV BAR */
+
+.navbar-brand {
+  font-weight: bolder;
+}
+.nav-link {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.taberu {
+  font-size: 32px;
+}
+.pic1 {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  left: 800px;
+  bottom: 150px;
+}
+.img1 {
+  width: 60%;
+}
+.row h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 44px;
+  padding-top: 5%;
+}
+.title-image {
+  position: relative;
+  bottom: -50px;
+}
+.card-header {
+  background-color: #faf4b7;
+}
+.card-para {
+  background-color: #fef9ef;
+}
+#outlets {
+  padding: 100px;
+  text-align: center;
+  background-color: #fcfdf2;
+}
+
+.outlets-heading {
+  font-family: "PT Serif Caption", serif;
+  font-weight: 900;
+}
+
+.outl {
+  padding: 4% 2%;
+}
+.card :hover {
+  box-shadow: 10px 10px 5px 12px lightblue;
+}
+.o-head {
+  padding-bottom: 5%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
+.card-para p {
+  font-family: "PT Serif", serif;
+  font-size: 16.5px;
+  font-weight: 500;
+}
+
+@media (max-width: 640px) {
+  .title-image {
+    width: 200px;
+    height: 200px;
+    position: static;
+  }
+  #title {
+    text-align: center;
+  }
+
+  .row h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .title-image {
+    width: 200px;
+    height: 200px;
+    position: static;
+  }
+  #title {
+    text-align: center;
+  }
+
+  .row h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1000px) {
+  .title-image {
+    width: 200px;
+    height: 200px;
+    position: static;
+  }
+
+  .row h1 {
+    font-size: 34px;
+  }
+}
+@media (max-width: 1100px) {
+  .row h1 {
+    font-size: 30px;
+  }
+}
+/* YELLOW CONTAINER DONE */
