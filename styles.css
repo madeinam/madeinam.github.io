@@ -48,6 +48,39 @@ body {
   position: relative;
   bottom: -50px;
 }
+.card-header {
+  background-color: #faf4b7;
+}
+.card-para {
+  background-color: #fef9ef;
+}
+#outlets {
+  padding: 100px;
+  text-align: center;
+  background-color: #fcfdf2;
+}
+
+.outlets-heading {
+  font-family: "PT Serif Caption", serif;
+  font-weight: 900;
+}
+
+.outl {
+  padding: 4% 2%;
+}
+.card :hover {
+  box-shadow: 10px 10px 5px 12px lightblue;
+}
+.o-head {
+  padding-bottom: 5%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
+.card-para p {
+  font-family: "PT Serif", serif;
+  font-size: 16.5px;
+  font-weight: 500;
+}
 
 @media (max-width: 640px) {
   .title-image {
@@ -94,3 +127,4 @@ body {
     font-size: 30px;
   }
 }
+/* YELLOW CONTAINER DONE */
