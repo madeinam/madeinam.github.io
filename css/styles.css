@@ -95,9 +95,12 @@ body {
   .row h1 {
     font-size: 30px;
   }
-  .outl {
-  padding: 1% 2%;
-}
+  #outlets {
+    padding: 50px;
+  }
+  .card {
+    padding: 15% 12%;
+  }
 }
 
 @media (max-width: 800px) {
@@ -113,9 +116,12 @@ body {
   .row h1 {
     font-size: 30px;
   }
-  .outl {
-  padding: 1% 2%;
-}
+  #outlets {
+    padding: 50px;
+  }
+  .card {
+    padding: 15% 12%;
+  }
 }
 @media (max-width: 1000px) {
   .title-image {
@@ -127,9 +133,6 @@ body {
   .row h1 {
     font-size: 34px;
   }
-  .outl {
-  padding: 1% 2%;
-}
 }
 @media (max-width: 1100px) {
   .row h1 {
